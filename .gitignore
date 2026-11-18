@@ -1,19 +1,40 @@
-# React frontend
+
+# =========================
+# React Frontend
+# =========================
 frontend/node_modules/
 frontend/dist/
+frontend/.vite/
 
-# Spring Boot backend
+# =========================
+# Spring Boot Backend
+# =========================
 backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
 
-# IDE files
-.idea/
-.vscode/
-
-# Environment variables
+# =========================
+# Environment Variables
+# =========================
 .env
 .env.*
 !.env.example
 
-# OS files
+# =========================
+# IDE Files
+# =========================
+.idea/
+.vscode/
+*.iml
+
+# =========================
+# Operating System
+# =========================
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# =========================
+# Logs
+# =========================
+*.log
+npm-debug.log*
