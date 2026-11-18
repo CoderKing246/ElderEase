@@ -1,0 +1,32 @@
+export const INITIAL_SENIORS = [
+  {
+    id: 1,
+    familyId: 7,
+    name: 'Ramesh Sharma',
+    age: 72,
+    address: 'C-42, Greater Kailash Part 1, New Delhi',
+    phone: '9876543210',
+    relationship: 'Father',
+    avatarBg: 'bg-emerald-100 text-emerald-800',
+  },
+  {
+    id: 2,
+    familyId: 7,
+    name: 'Kamla Sharma',
+    age: 69,
+    address: 'C-42, Greater Kailash Part 1, New Delhi',
+    phone: '9876543211',
+    relationship: 'Mother',
+    avatarBg: 'bg-green-100 text-green-800',
+  },
+  {
+    id: 3,
+    familyId: 7,
+    name: 'Om Prakash Verma',
+    age: 78,
+    address: 'Flat 202, Surya Apartments, Lajpat Nagar, New Delhi',
+    phone: '9811223344',
+    relationship: 'Grandfather',
+    avatarBg: 'bg-teal-100 text-teal-800',
+  },
+];
